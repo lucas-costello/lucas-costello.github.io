@@ -7,24 +7,30 @@
 <body>
 <!--Create Nav Bar-->
   <nav>
-    <ul>
+  <ul>
       <li>
-        <a href="landing-page.html">Home</a>    <!-- Home -->
+          <a href="landing-page.html">Home</a>    <!-- Home -->
       </li> 
       <li>
-        <a href="#">Projects</a>    <!-- Projects -->
-      <ul>
-      <li>
-        <a href="c-projects.html">C Projects</a>    <!-- C Projects -->
+          <a href="#">Projects</a>    <!-- Projects -->
+          <ul>
+          <li>
+              <a href="c-projects.html">C Projects</a>    <!-- C Projects -->
+          </li>
+          <li>
+              <a href="visualstudio-projects.html">C++ / Visual Studio</a>    <!-- Visual Studio Projects -->
+          </li>
+          <li>
+              <a href="vhdl-projects.html">VHDL Projects</a>    <!-- VHDL Projects -->
+          </li>
+          </ul>
       </li>
       <li>
-        <a href="visualstudio-projects.html">C++ / Visual Studio</a>    <!-- Visual Studio Projects -->
+          <a href="my-resume.html">Resume</a>    <!-- Resume -->
       </li>
       <li>
-        <a href="vhdl-projects.html">VHDL Projects</a>    <!-- VHDL Projects -->
+          <a href="about-me.html">About Me</a>    <!-- About Me -->
       </li>
-      </ul>
-      </li>
-    </ul>
+  </ul>
   </nav>
 </body>
