@@ -6,32 +6,20 @@
       
 <body>
 <!--Create Nav Bar-->
-  <nav>
-  <ul>
-      <li>
-          <a href="index.html">Home</a>    <!-- Home -->
-      </li> 
-      <li>
-          <a href="#">Projects</a>    <!-- Projects -->
-          <ul>
-          <li>
-              <a href="c-projects.html">C Projects</a>    <!-- C Projects -->
-          </li>
-          <li>
-              <a href="visualstudio-projects.html">C++ / Visual Studio</a>    <!-- Visual Studio Projects -->
-          </li>
-          <li>
-              <a href="vhdl-projects.html">VHDL Projects</a>    <!-- VHDL Projects -->
-          </li>
-          </ul>
-      </li>
-      <li>
-          <a href="my-resume.html">Resume</a>    <!-- Resume -->
-      </li>
-      <li>
-          <a href="about-me.html">About Me</a>    <!-- About Me -->
-      </li>
-  </ul>
-  </nav>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+            <li><a href="index.html">Home</a></li>      <!-- Home -->
+            <li><a class='dropdown-arrow' href="#">Projects</a>    <!-- Projects -->
+                <ul class='sub-menus'>
+                    <li><a href="html-repo/c-projects.html">C Projects</a></li>     <!-- C Projects -->
+                    <li><a href="html-repo/visualstudio-projects.html">C++ / Visual Studio</a></li>     <!-- Visual Studio Projects -->
+                    <li><a href="html-repo/vhdl-projects.html">VHDL Projects</a></li>       <!-- VHDL Projects -->
+                </ul>
+            </li>
+            <li><a href="html-repo/my-resume.html">Resume</a></li>      <!-- Resume -->
+            <li><a href="html-repo/about-me.html">About Me</a></li>     <!-- About Me -->
+        </ul>
+    </nav>
 </body>
 </html>
