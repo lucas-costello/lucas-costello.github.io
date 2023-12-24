@@ -2,7 +2,7 @@
 	background: #3BD154;
 	background: linear-gradient(to bottom,  #444444,  #0DDFFF);
 	height: 50px;
-	border-radius: 50px;
+	border-radius: 0px;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -80,8 +80,8 @@
 	background: #F2F2F2;
 	color: #444444;
 }
-@media screen and (max-width: 800px){
-	#menu {position:relative}
+@media screen and (max-width: 768px){
+	#menu {position:relative; display:flex; top:0px; padding: 0%;}
 	#menu ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
 	#menu ul.sub-menus {width:100%;position:static;}
 	#menu ul.sub-menus a {padding-left:30px;}
@@ -92,3 +92,5 @@
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+
+
