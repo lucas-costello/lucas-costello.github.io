@@ -1,6 +1,5 @@
 #menu {
-	background: #3BD154;
-	background: 444444;
+	background: #444444;
 	height: 50px;
 	border-radius: 15px;
 }
@@ -30,8 +29,8 @@
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #0DDFFF;
 	background: #444444;
+    border: 0.5px solid; border-color: #000000;
 }
 #menu input {
 	display: none;
